@@ -6,6 +6,7 @@ def reverse(s):
     else:
         return reverse(s[1:]) + s[0]
 
+
 # compares the reversed and the normal string to see if it is a palindrome
 def isPalindrome(number):
     return str(number) == reverse(str(number))
